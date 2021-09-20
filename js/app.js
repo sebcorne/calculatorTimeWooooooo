@@ -7,9 +7,7 @@ var qThree=Number(prompt("Please enter another number"))
 
 function daCalculator(x,y,z) {
 
-    if ((isNaN(x))&&(isNaN(y)&& z != "+" || z != "-" || z != "*" || z != "x" || z != "/")){
-        return ele.innerHTML="Neither of these are digits, such as '8' or '251235123' and your operator is not '+', '-', 'x', '*', or '/'! Please fix that!"
-    }
+
     if ((isNaN(x))&&(isNaN(y))) {
       return ele.innerHTML = "Both of these are not digits, please use digits! For example, use 5 instead of five! Also please do not try to add funny things together, like cat and, uhh, ****! Whatever the **** **** is.";
     } else
